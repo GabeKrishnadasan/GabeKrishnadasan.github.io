@@ -1,0 +1,24 @@
+/* Reset some default styles for better consistency */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Style for the header */
+  header {
+    background-color: rgb(49, 49, 49); /* Background color for the header */
+    color: #fff; /* Text color */
+    text-align: Left;
+    padding: 50px; /* Add some padding for better visual appeal */
+  }
+  
+  /* Style for the name */
+  h1 {
+    font-size: 4em; /* Adjust the font size as needed */
+  }
+  
+  /* Style for the additional information */
+  p {
+    font-size: 1.4em; /* Adjust the font size as needed */
+  }
+  
