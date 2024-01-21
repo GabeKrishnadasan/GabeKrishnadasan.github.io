@@ -1,24 +1,80 @@
 /* Reset some default styles for better consistency */
-body, h1, p {
+body, h1, p, ul, li {
     margin: 0;
     padding: 0;
   }
   
   /* Style for the header */
   header {
-    background-color: rgb(49, 49, 49); /* Background color for the header */
-    color: #fff; /* Text color */
-    text-align: Left;
-    padding: 50px; /* Add some padding for better visual appeal */
+    background-color: #003b70;
+    color: #fff;
+    text-align: Center;
+    padding-top: 100px;
+    padding-left: 50px;
+    padding-bottom: 200px;
   }
   
   /* Style for the name */
   h1 {
-    font-size: 4em; /* Adjust the font size as needed */
-  }
+    font-size: 6em;
+  } 
   
   /* Style for the additional information */
   p {
-    font-size: 1.4em; /* Adjust the font size as needed */
+    font-size: 2em;
+    padding-bottom: 00px;
+  }
+
+  a {
+    font-size: 1.5em; /* Set the font size */
+    text-decoration: none; /* Remove underline */
+    color: #0077cc; /* Set the text color */
+    font-weight: bold; /* Set the font weight */
+}
+
+    /* Define styles for the linked text when hovered */
+    a:hover {
+        color: #00a499; /* Change text color on hover */
+    }
+  
+  /* Style for the navigation bar */
+  nav {
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    background-color: #0074c8;
+    width: 100%;
+  }
+  
+  /* Style for the navigation links */
+  ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+  }
+  
+  li {
+    margin: 0 15px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.2em;
+  }
+  
+  /* Style for the page sections */
+  section {
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  /* Style for the section headings */
+  h2 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
   }
   
